@@ -61,7 +61,7 @@
 		var bUrl = bImg.match(/url\(['"]?([^'")]*)/i)[1];
 		var img = new Image();
 		$(img).one('load', function(){
-			$('.overlay').addClass('loaded');
+			$('.overlay-fuzz, .overlay').addClass('loaded');
 		});
 		img.src = bUrl;
 	});
