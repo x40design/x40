@@ -51,11 +51,11 @@ a:hover {
   height: 100%;
   background-color: #000000;
   opacity: 1;
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  -ms-transition: opacity 1s;
-  -o-transition: opacity 1s;
-  transition: opacity 1s;
+  -webkit-transition: opacity 2s;
+  -moz-transition: opacity 2s;
+  -ms-transition: opacity 2s;
+  -o-transition: opacity 2s;
+  transition: opacity 2s;
 }
 /* line 49, F:\000\_github\x40design-gh-pages\less\style.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40design-gh-pages\/less\/style\.less}line{font-family:\0000349}}
@@ -73,11 +73,11 @@ a:hover {
   height: 100%;
   opacity: 1;
   background-image: url(../images/fuzz1.gif);
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  -ms-transition: opacity 1s;
-  -o-transition: opacity 1s;
-  transition: opacity 1s;
+  -webkit-transition: opacity 2s;
+  -moz-transition: opacity 2s;
+  -ms-transition: opacity 2s;
+  -o-transition: opacity 2s;
+  transition: opacity 2s;
 }
 /* line 63, F:\000\_github\x40design-gh-pages\less\style.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40design-gh-pages\/less\/style\.less}line{font-family:\0000363}}
