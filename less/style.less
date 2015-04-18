@@ -1,6 +1,6 @@
 @color: #fff;
 @color-link: #fff;
-@color-hover: #dfdfff;
+@color-hover: #f0d4bb;
 .transition(@t){
 	-webkit-transition: @t;
 	-moz-transition: @t;
@@ -8,7 +8,6 @@
 	-o-transition: @t;
 	transition: @t;
 }
-
 body{
 	background-color: #222;
 	color: @color;
@@ -100,13 +99,28 @@ a:hover{
 	@media (max-width: 600px) {
 			.small-screen-home;
 	}
+	@media (max-height: 700px) {
+			.small-screen-home;
+	}
 }
 .small-screen-home(){
-	top: 15%;
-	left: 15%;
+	top: 10%;
 	h1{
-		font-size: 70px;
-		line-height: 60px;
+		font-size: 49px;
+		line-height: 42px;
+	}
+	h2{
+		font-size: 16px;
+		line-height: 22px;
+		margin-bottom: 3px;
+	}
+	ul{
+		letter-spacing: 1.5px;
+		font-size: 11px;
+		margin-bottom: 2px;
+		li{
+			line-height: 15px;
+		}
 	}
 	
 }
@@ -123,6 +137,12 @@ a:hover{
 	padding: 0 20px;
 	a{
 		text-decoration: underline;
+	}
+	@media (max-width: 600px) {
+			font-size: 11px;
+	}
+	@media (max-height: 700px) {
+			font-size: 11px;
 	}
 }
 	
