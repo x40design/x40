@@ -58,9 +58,10 @@ a:hover{
 	height: 100%;
 	opacity: 1;
 	background-image: url(../images/fuzz1.gif);
-	.transition(~"opacity 2s");
+	.transition(~"all 2s");
 	&.loaded{
-		opacity: 0.14;
+		opacity: 0;
+		visibility: hidden;
 	}
 }
 .home{

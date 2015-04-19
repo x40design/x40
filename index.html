@@ -65,6 +65,9 @@
 		var img = new Image();
 		$(img).one('load', function(){
 			$('.overlay-fuzz, .overlay').addClass('loaded');
+			setTimeout(function(){
+				$('.overlay-fuzz').css({display: 'none'});
+			}, 2100)
 		});
 		img.src = bUrl;
 	});
