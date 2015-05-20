@@ -183,7 +183,7 @@ a:hover {
 .portfolio a {
   border: 1px solid rgba(255, 255, 255, 0.7);
   padding: 20px;
-  background-color: rgba(255, 0, 0, 0.2);
+  background-color: rgba(0, 0, 255, 0.1);
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -194,7 +194,7 @@ a:hover {
 @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003135}}
 .portfolio a:hover {
   color: #ffffff;
-  background-color: rgba(255, 0, 0, 0.1);
+  background-color: rgba(125, 125, 0, 0.1);
 }
 @media (max-height: 700px) {
   /* line 140, F:\000\_github\x40-gh-pages\less\style.less */
