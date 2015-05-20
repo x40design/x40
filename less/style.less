@@ -74,7 +74,6 @@ a:hover{
 	font-family: 'Oswald', sans-serif;
 	h1{
 		font-size: 200px;
-		line-height: 170px;
 	}
 	h2{
 		margin-top: 0px;
@@ -94,34 +93,13 @@ a:hover{
 			text-align: -webkit-match-parent;
 		}
 	}
-	@media (max-width: 500px) {
-			.small-screen-home;
-	}
-	@media (max-width: 600px) {
-			.small-screen-home;
-	}
-	@media (max-height: 700px) {
-			.small-screen-home;
-	}
-}
-.small-screen-home(){
-	top: 10%;
-	h1{
-		font-size: 49px;
-		line-height: 42px;
-	}
-	h2{
-		font-size: 16px;
-		line-height: 22px;
-		margin-bottom: 3px;
-	}
-	ul{
-		letter-spacing: 1.5px;
-		font-size: 11px;
-		margin-bottom: 2px;
-		li{
-			line-height: 15px;
+	@media (max-width: 700px) {
+		h1{
+			font-size: 120px;
 		}
+	}
+	@media (max-height: 600px) {
+		top: 10%;
 	}
 	
 }
@@ -145,5 +123,24 @@ a:hover{
 	@media (max-height: 700px) {
 			font-size: 11px;
 	}
+}
+.portfolio{
+	margin-top: 40px;
+	font-size: 18px;
+	a{
+		border: 1px solid fadeout(@color-link, 30%);
+		padding: 20px;
+		background-color: rgba(255, 0, 0, 0.2);
+		.transition(~"all 0.3s");
+		&:hover{
+			color: @color-link;
+			background-color: rgba(255, 0, 0, 0.1);
+		}
+	}
+	@media (max-height: 700px) {
+			font-size: 12px;
+			a{
+				padding: 10px;
+	}		}
 }
 	

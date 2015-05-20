@@ -100,25 +100,24 @@ a:hover {
 @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\0000375}}
 .home h1 {
   font-size: 200px;
-  line-height: 170px;
 }
-/* line 79, F:\000\_github\x40-gh-pages\less\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\0000379}}
+/* line 78, F:\000\_github\x40-gh-pages\less\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\0000378}}
 .home h2 {
   margin-top: 0px;
   font-size: 28px;
   line-height: 37px;
   margin-bottom: 5px;
 }
-/* line 85, F:\000\_github\x40-gh-pages\less\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\0000385}}
+/* line 84, F:\000\_github\x40-gh-pages\less\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\0000384}}
 .home ul {
   padding: 0 0 0 10px;
   letter-spacing: 2.5px;
   font-size: 16px;
 }
-/* line 89, F:\000\_github\x40-gh-pages\less\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\0000389}}
+/* line 88, F:\000\_github\x40-gh-pages\less\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\0000388}}
 .home ul li {
   line-height: 22px;
   text-indent: 38px;
@@ -126,104 +125,22 @@ a:hover {
   display: list-item;
   text-align: -webkit-match-parent;
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   /* line 97, F:\000\_github\x40-gh-pages\less\style.less */
   @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\0000397}}
+  .home h1 {
+    font-size: 120px;
+  }
+}
+@media (max-height: 600px) {
+  /* line 101, F:\000\_github\x40-gh-pages\less\style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003101}}
   .home {
     top: 10%;
   }
-  /* line 109, F:\000\_github\x40-gh-pages\less\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003109}}
-  .home h1 {
-    font-size: 49px;
-    line-height: 42px;
-  }
-  /* line 113, F:\000\_github\x40-gh-pages\less\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003113}}
-  .home h2 {
-    font-size: 16px;
-    line-height: 22px;
-    margin-bottom: 3px;
-  }
-  /* line 118, F:\000\_github\x40-gh-pages\less\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003118}}
-  .home ul {
-    letter-spacing: 1.5px;
-    font-size: 11px;
-    margin-bottom: 2px;
-  }
-  /* line 122, F:\000\_github\x40-gh-pages\less\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003122}}
-  .home ul li {
-    line-height: 15px;
-  }
 }
-@media (max-width: 600px) {
-  /* line 100, F:\000\_github\x40-gh-pages\less\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003100}}
-  .home {
-    top: 10%;
-  }
-  /* line 109, F:\000\_github\x40-gh-pages\less\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003109}}
-  .home h1 {
-    font-size: 49px;
-    line-height: 42px;
-  }
-  /* line 113, F:\000\_github\x40-gh-pages\less\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003113}}
-  .home h2 {
-    font-size: 16px;
-    line-height: 22px;
-    margin-bottom: 3px;
-  }
-  /* line 118, F:\000\_github\x40-gh-pages\less\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003118}}
-  .home ul {
-    letter-spacing: 1.5px;
-    font-size: 11px;
-    margin-bottom: 2px;
-  }
-  /* line 122, F:\000\_github\x40-gh-pages\less\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003122}}
-  .home ul li {
-    line-height: 15px;
-  }
-}
-@media (max-height: 700px) {
-  /* line 103, F:\000\_github\x40-gh-pages\less\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003103}}
-  .home {
-    top: 10%;
-  }
-  /* line 109, F:\000\_github\x40-gh-pages\less\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003109}}
-  .home h1 {
-    font-size: 49px;
-    line-height: 42px;
-  }
-  /* line 113, F:\000\_github\x40-gh-pages\less\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003113}}
-  .home h2 {
-    font-size: 16px;
-    line-height: 22px;
-    margin-bottom: 3px;
-  }
-  /* line 118, F:\000\_github\x40-gh-pages\less\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003118}}
-  .home ul {
-    letter-spacing: 1.5px;
-    font-size: 11px;
-    margin-bottom: 2px;
-  }
-  /* line 122, F:\000\_github\x40-gh-pages\less\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003122}}
-  .home ul li {
-    line-height: 15px;
-  }
-}
-/* line 128, F:\000\_github\x40-gh-pages\less\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003128}}
+/* line 106, F:\000\_github\x40-gh-pages\less\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003106}}
 .cc-license {
   z-index: 0;
   position: absolute;
@@ -236,22 +153,58 @@ a:hover {
   letter-spacing: 1px;
   padding: 0 20px;
 }
-/* line 139, F:\000\_github\x40-gh-pages\less\style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003139}}
+/* line 117, F:\000\_github\x40-gh-pages\less\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003117}}
 .cc-license a {
   text-decoration: underline;
 }
 @media (max-width: 600px) {
-  /* line 142, F:\000\_github\x40-gh-pages\less\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003142}}
+  /* line 120, F:\000\_github\x40-gh-pages\less\style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003120}}
   .cc-license {
     font-size: 11px;
   }
 }
 @media (max-height: 700px) {
-  /* line 145, F:\000\_github\x40-gh-pages\less\style.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003145}}
+  /* line 123, F:\000\_github\x40-gh-pages\less\style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003123}}
   .cc-license {
     font-size: 11px;
+  }
+}
+/* line 127, F:\000\_github\x40-gh-pages\less\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003127}}
+.portfolio {
+  margin-top: 40px;
+  font-size: 18px;
+}
+/* line 130, F:\000\_github\x40-gh-pages\less\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003130}}
+.portfolio a {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  background-color: rgba(255, 0, 0, 0.2);
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* line 135, F:\000\_github\x40-gh-pages\less\style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003135}}
+.portfolio a:hover {
+  color: #ffffff;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+@media (max-height: 700px) {
+  /* line 140, F:\000\_github\x40-gh-pages\less\style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003140}}
+  .portfolio {
+    font-size: 12px;
+  }
+  /* line 142, F:\000\_github\x40-gh-pages\less\style.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/000\/_github\/x40-gh-pages\/less\/style\.less}line{font-family:\00003142}}
+  .portfolio a {
+    padding: 10px;
   }
 }
